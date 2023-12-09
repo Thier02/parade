@@ -24,8 +24,9 @@ Replace the placeholder values with your actual RMC username, RMC password, and 
 
 ## Running the Script
 1. Ensure that you have Python installed on your system.
-2. Install dependencies by running `pip install -r requirements.txt`.
-3. Execute the script using the command `python auto-parade.py` or in your IDE.
+2. Open a terminal in the folder where the script is located.
+3. Install dependencies by running `pip install -r requirements.txt`.
+4. Execute the script using the command `python auto-parade.py` or in your IDE.
 
 ## Operation
 The script performs the following steps:
