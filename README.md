@@ -11,8 +11,8 @@ Before running the script, make sure to configure the following environment vari
 ### Windows
 
 ```powershell
-$setx RMC_ID "Your_RMC_Username"
-$setx RMC_PASS "Your_RMC_Password"
+setx RMC_ID "Your_RMC_Username"
+setx RMC_PASS "Your_RMC_Password"
 ```
 ### Mac OS / Linux
 ```bash
