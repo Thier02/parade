@@ -22,7 +22,7 @@ logging.getLogger('').addHandler(console)
 
 def send_sms(message):
     """Utilise l'API de Twilio pour envoyer un SMS(facultatif, c'est juste pour être notifié)"""
-    account_sid = 'ACfe77ed5ca49c0e094f929b4892cbbf7d'
+    account_sid = 'TWILIO_SID'
     auth_token = TWILIO_AUTH_TOKEN
     client = Client(account_sid, auth_token)
 
