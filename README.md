@@ -2,7 +2,7 @@
 
 ## Overview
 
-This script is designed to automate the update of the parade state on the Royal Military College of Canada (RMC) portal. It utilizes Playwright for automating interactions with the website.
+This script is designed to automate the update of the parade state on the portal. It utilizes Playwright for automating interactions with the website.
 
 ## Configuration
 ### This step is optional, however it is recommended for security reasons
@@ -20,20 +20,19 @@ export RMC_ID="Your_RMC_Username"
 export RMC_PASS="Your_RMC_Password"
 ```
 
-Replace the placeholder values with your actual RMC username, RMC password, and Twilio authentication token.
+Replace the placeholder values with your actual RMC username, RMC password, and Twilio authentication token if applicable.
 
 ## Running the Script
 1. Ensure that you have Python installed on your system.
 2. Install dependencies by running `pip install -r requirements.txt`.
-3. Execute the script using the command `python auto-parade.py`.
+3. Execute the script using the command `python auto-parade.py` or in your IDE.
 
 ## Operation
-The script performs the following steps automatically:
+The script performs the following steps:
 - Logging into the RMC portal.
 - Accessing the parade state update page.
 - Selecting the desired option for the parade state (currently "Present").
 - Saving the changes.
-- Waiting for 2 seconds to allow the page to update.
 
 ## SMS Notification (Optional)
 If you have configured your Twilio account, the script will send an SMS notification to inform you of the successful update of the parade state. You can enable this feature by uncommenting the appropriate lines in the script.
